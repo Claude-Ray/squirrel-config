@@ -30,9 +30,29 @@ patch:
       text_color: 0xdedddd
 
   app_options:
-    net.freemacsoft.AppCleaner:
+    com.apple.finder:
+      ascii_mode: true
+    com.apple.Safari:
+      ascii_mode: true
+    com.apple.Terminal:
+      ascii_mode: true
+    com.apple.Xcode:
+      ascii_mode: true
+    com.google.Chrome:
+      ascii_mode: true
+    com.googlecode.iterm2:
       ascii_mode: true
     com.jetbrains.WebStorm:
+      ascii_mode: true
+    com.kapeli.dashdoc:
+      ascii_mode: true
+    com.microsoft.VSCode:
+      ascii_mode: true
+    com.runningwithcrayons.Alfred:
+      ascii_mode: true
+    org.gnu.Emacs:
+      ascii_mode: true
+    net.freemacsoft.AppCleaner:
       ascii_mode: true
     net.kovidgoyal.calibre:
       ascii_mode": true
