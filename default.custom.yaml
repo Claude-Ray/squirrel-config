@@ -1,4 +1,9 @@
 patch:
+  schema_list:
+    - schema: flypy
+    - schema: flypyplus
+    - schema: luna_pinyin_simp
+
   ascii_composer:
     switch_key:
       Shift_L: commit_code
@@ -9,4 +14,4 @@ patch:
       Eisu_toggle: clear
 
   menu:
-    page_size: 9
+    page_size: 8
