@@ -1,5 +1,6 @@
 patch:
   schema_list:
+    - schema: double_pinyin_flypy
     - schema: flypy
     - schema: flypyplus
     - schema: luna_pinyin_simp
