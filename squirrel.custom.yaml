@@ -40,6 +40,10 @@ patch:
       ascii_mode: true
     com.google.Chrome:
       ascii_mode: true
+    org.mozilla.firefox:
+      ascii_mode": true
+    org.qt-project.Qt.QtWebEngineCore:
+      ascii_mode": true
     com.googlecode.iterm2:
       ascii_mode: true
     com.jetbrains.WebStorm:
