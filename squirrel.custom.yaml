@@ -29,34 +29,5 @@ patch:
       name: "沙漠夜／Mojave Dark"
       text_color: 0xdedddd
 
+  # Removed for switching input method by Karabiner
   app_options:
-    com.apple.finder:
-      ascii_mode: true
-    com.apple.Safari:
-      ascii_mode: true
-    com.apple.Terminal:
-      ascii_mode: true
-    com.apple.Xcode:
-      ascii_mode: true
-    com.google.Chrome:
-      ascii_mode: true
-    org.mozilla.firefox:
-      ascii_mode": true
-    org.qt-project.Qt.QtWebEngineCore:
-      ascii_mode": true
-    com.googlecode.iterm2:
-      ascii_mode: true
-    com.jetbrains.WebStorm:
-      ascii_mode: true
-    com.kapeli.dashdoc:
-      ascii_mode: true
-    com.microsoft.VSCode:
-      ascii_mode: true
-    com.runningwithcrayons.Alfred:
-      ascii_mode: true
-    org.gnu.Emacs:
-      ascii_mode: true
-    net.freemacsoft.AppCleaner:
-      ascii_mode: true
-    net.kovidgoyal.calibre:
-      ascii_mode": true
