@@ -6,4 +6,4 @@ patch:
     - schema: luna_pinyin_simp
 
   menu:
-    page_size: 99
+    page_size: 8
