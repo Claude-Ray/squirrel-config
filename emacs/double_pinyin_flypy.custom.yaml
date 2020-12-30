@@ -2,7 +2,7 @@ patch:
   translator/preedit_format: {}
   switches/@next:
     name: emoji_suggestion
-    reset: 1
+    reset: 0
     states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
   'engine/filters/@before 0':
     simplifier@emoji_suggestion
