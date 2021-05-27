@@ -1,8 +1,8 @@
 patch:
   schema_list:
     - schema: double_pinyin_flypy
-    - schema: flypy
-    - schema: flypyplus
+    # - schema: flypy
+    # - schema: flypyplus
     - schema: luna_pinyin_simp
 
   ascii_composer:
@@ -13,6 +13,13 @@ patch:
       Control_R: noop
       Caps_Lock: noop
       Eisu_toggle: clear
+
+  key_binder:
+    bindings:
+      - { when: composing, accept: "Control+b", send: Up }
+      - { when: composing, accept: "Control+f", send: Down }
+      - { when: paging, accept: "Control+p", send: Page_Up }
+      - { when: has_menu, accept: "Control+n", send: Page_Down }
 
   menu:
     page_size: 8
