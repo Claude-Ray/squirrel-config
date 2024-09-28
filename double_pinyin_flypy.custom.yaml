@@ -25,3 +25,5 @@ patch:
     - script_translator
     - lua_translator@double_pinyin_flypy_date_translator
     - lua_translator@double_pinyin_flypy_time_translator
+  translator:
+    dictionary: rime_ice
