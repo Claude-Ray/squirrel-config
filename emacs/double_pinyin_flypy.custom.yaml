@@ -12,3 +12,14 @@ patch:
   "key_binder/bindings":
     - { when: paging, accept: Control+p, send: Page_Up }
     - { when: has_menu, accept: Control+n, send: Page_Down }
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: [ 中文, 西文 ]
+    - name: full_shape
+      states: [ 半角, 全角 ]
+    - name: simplification
+      reset: 1
+      states: [ 漢字, 汉字 ]
+    - name: ascii_punct
+      states: [ 。，, ．， ]
